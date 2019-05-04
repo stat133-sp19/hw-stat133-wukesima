@@ -34,10 +34,10 @@ Installation
     #install.packages("devtools") 
 
     # install "binomial" (without vignettes)
-
+    devtools::install_github("stat133-sp19/hw-stat133-wukesima/binomial")
 
     # install "binomial" (with vignettes)
-
+    devtools::install_github("stat133-sp19/hw-stat133-wukesima/binomial", build_vignettes = TRUE)
 Usage
 -----
 
